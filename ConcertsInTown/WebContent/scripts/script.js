@@ -214,7 +214,7 @@
 
   function register() {
 	
-	/*
+	
     var username = document.querySelector('#register-username').value;
     var password = document.querySelector('#register-password').value;
     var firstName = document.querySelector('#register-first-name').value;
@@ -259,9 +259,9 @@
     	  showRegisterResult('Failed to register');
       },
       true);
-      */
+      
 	//Registration Suspended.
-	  showRegisterResult('Sorry. New registration suspended.');
+	//showRegisterResult('Sorry. New registration suspended.');
   }
 
   function showRegisterResult(registerMessage) {
